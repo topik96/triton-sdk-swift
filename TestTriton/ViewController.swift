@@ -8,31 +8,10 @@
 import UIKit
 import TritonPlayerSDK
 
-enum EmbeddedPlayerState: Int {
-   case connecting
-   case playing
-   case stopped
-   case error
-    
-    var label: String {
-        switch self {
-        case .playing:
-            return "Playing"
-        case .connecting:
-            return "Connecting"
-        case .stopped:
-            return "Stopped"
-        case .error:
-            return "Error"
-        }
-    }
-}
-
 class ViewController: UIViewController {
     // MARK: Property
     @IBOutlet weak var togglePlayBtn: UIButton!
     var tritonPlayer: TritonPlayer!
-    var playerState: EmbeddedPlayerState?
     
     override func viewDidLoad() {
         super.viewDidLoad()
