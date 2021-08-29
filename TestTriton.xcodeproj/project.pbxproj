@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		D37A95C426DBC1DA001F7AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37A95C226DBC1DA001F7AB8 /* LaunchScreen.storyboard */; };
 		D37A95CF26DBC1DA001F7AB8 /* TestTritonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A95CE26DBC1DA001F7AB8 /* TestTritonTests.swift */; };
 		D37A95DA26DBC1DA001F7AB8 /* TestTritonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A95D926DBC1DA001F7AB8 /* TestTritonUITests.swift */; };
+		D37A95E826DBC38E001F7AB8 /* TritonPlayerSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37A95E726DBC38E001F7AB8 /* TritonPlayerSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D37A95D526DBC1DA001F7AB8 /* TestTritonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTritonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37A95D926DBC1DA001F7AB8 /* TestTritonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTritonUITests.swift; sourceTree = "<group>"; };
 		D37A95DB26DBC1DA001F7AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37A95E726DBC38E001F7AB8 /* TritonPlayerSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TritonPlayerSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37A95E826DBC38E001F7AB8 /* TritonPlayerSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +102,7 @@
 		D37A95B626DBC1D7001F7AB8 /* TestTriton */ = {
 			isa = PBXGroup;
 			children = (
+				D37A95E726DBC38E001F7AB8 /* TritonPlayerSDK.xcframework */,
 				D37A95B726DBC1D8001F7AB8 /* AppDelegate.swift */,
 				D37A95B926DBC1D8001F7AB8 /* SceneDelegate.swift */,
 				D37A95BB26DBC1D8001F7AB8 /* ViewController.swift */,

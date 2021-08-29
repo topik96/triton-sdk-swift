@@ -8,6 +8,15 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>The app uses your location to target advertising to your geographical area</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app uses your location to target advertising to your geographical area</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
